@@ -5,7 +5,7 @@ inputs:
   filepath:
     description: "Filepath for openapi documentation"
     default: './docs/swagger.yaml'
-runs: |
+run: |
   ls
   echo $PWD
   echo $INPUT_FILEPATH
