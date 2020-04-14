@@ -1,0 +1,13 @@
+---
+name: 'Test'
+description: 'test'
+inputs:
+  filepath:
+    description: "Filepath for openapi documentation"
+    default: './docs/swagger.yaml'
+runs: |
+  echo $PWD
+  echo $INPUT_FILEPATH
+branding:
+  icon: 'code'
+  color: 'yellow'
