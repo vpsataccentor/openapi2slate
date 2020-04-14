@@ -6,6 +6,7 @@ inputs:
     description: "Filepath for openapi documentation"
     default: './docs/swagger.yaml'
 runs: |
+  ls
   echo $PWD
   echo $INPUT_FILEPATH
 branding:
